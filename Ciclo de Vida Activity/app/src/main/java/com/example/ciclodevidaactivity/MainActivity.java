@@ -2,6 +2,7 @@ package com.example.ciclodevidaactivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -28,5 +29,30 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intencao);
             }
         });
+        Log.i("Ciclo de Vida 1", "Método onResume ativado!!!!");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("Ciclo de Vida 1", "Método onStart ativado!!!!");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("Ciclo de Vida 1", "Método onResume ativado!!!!");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("Ciclo de Vida 1", "Método onResume ativado!!!!");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.i("Ciclo de Vida 1", "Método onResume ativado!!!!");
     }
 }

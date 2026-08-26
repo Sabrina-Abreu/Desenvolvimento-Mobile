@@ -17,7 +17,7 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity {
     TextView tvImc, tvClassificacaoImc;
     Button btnClassificarImc;
-    EditText edtPeso, edtAltura;
+    EditText edtPeso, edtAltura
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
