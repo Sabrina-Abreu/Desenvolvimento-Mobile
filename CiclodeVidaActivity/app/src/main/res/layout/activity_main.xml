@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fotofundo2"
     tools:context=".MainActivity">
 
     <TextView
@@ -33,8 +34,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/outline_accessibility_24"
-        tools:srcCompat="@drawable/outline_accessibility_24" />
+        app:srcCompat="@drawable/fotologin"
+        tools:srcCompat="@drawable/fotologin" />
 
     <TextView
         android:id="@+id/textView2"
