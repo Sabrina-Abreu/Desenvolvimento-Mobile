@@ -1,5 +1,6 @@
 package com.example.exemplo1intentexplicita;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,11 +27,25 @@ public class MainActivity extends AppCompatActivity {
         btnAbrir2Activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-
+                Intent intencao = new Intent(MainActivity.this,SegundaActivity.class);
+                startActivity(intencao);
             }
         });
+         btnAbrir3Activity.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intencao = new Intent(MainActivity.this,TerceiraActivity.class);
+                    startActivity(intencao);
+                }
+        });
+        btnAbrir4Activity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intencao = new Intent(MainActivity.this,QuartaActivity.class);
+                startActivity(intencao);
+            }
+        });
+
 
 
 
