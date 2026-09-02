@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Exemplo1IntentExplicita">
         <activity
+            android:name=".QuartaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TerceiraActivity"
+            android:exported="false" />
+        <activity
             android:name=".SegundaActivity"
             android:exported="false" />
         <activity
