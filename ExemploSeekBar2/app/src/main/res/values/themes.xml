@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ExemploSeekBar2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="ImagemCircular" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.ExemploSeekBar2" parent="Base.Theme.ExemploSeekBar2" />
+</resources>
